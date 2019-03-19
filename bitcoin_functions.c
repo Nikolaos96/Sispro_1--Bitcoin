@@ -362,6 +362,7 @@ void check_for_defference_users(char *file,int users){
 			before_value = value;
 		}
 	}
+	fclose(fp);
 	printf("\nFirst transactions OK \n\n");
 	return;
  }
